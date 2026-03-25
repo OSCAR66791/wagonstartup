@@ -1,0 +1,41 @@
+.banner {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image:
+    linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.55)),
+    url("../../images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.banner-content {
+  max-width: 720px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.banner-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #ffd7d7;
+  margin-bottom: 16px;
+}
+
+.banner h1 {
+  font-size: clamp(2.4rem, 5vw, 4.6rem);
+  line-height: 1.1;
+  margin: 0 0 18px;
+}
+
+.banner-text {
+  font-size: 1.1rem;
+  max-width: 640px;
+  margin: 0 auto 28px;
+  color: rgba(255, 255, 255, 0.9);
+}
